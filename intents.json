@@ -1,0 +1,208 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "identity",
+            "patterns": ["who are you", "what is your name?", "what's your name?", "what can i call you?"],
+            "responses": ["I do not have a name, I am just an interactive chatbot created to help students out", "I don't need a name, as I'm performing my role quite well", "Hey there. Before me, why don't you tell me your name?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["Who is your creator?"],
+            "responses": ["My creators two 3rd year engineering students- Rushin Bhatt & Malhar Pandya."],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?"],
+            "responses": ["Hey there! You can call me anything you like. Just be ethical."],
+            "context": [""]
+        },
+        {
+            "tag": "assistance",
+            "patterns": ["I need help", "Can you assist me?", "Help me please", "I require assistance", "Can you guide me?", "I'm lost, can you help?", "How can I proceed?", "Can you show me the way?", "I'm stuck, what should I do?", "Can you assist me with this task?"],
+            "responses": ["Of course, I'm here to help. What do you need assistance with?", "Sure, I'd be happy to help. What do you need assistance with?"],
+            "context": [""]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "I want to hear a joke", "Do you know any jokes?", "Tell me something funny", "Make me laugh", "Do you know any jokes about robots?", "Why did the computer go to the doctor?", "Can you tell me a pun?", "Share a joke with me"],
+            "responses": ["Sure, here's one: Why don't scientists trust atoms? Because they make up everything!", "How about this one: Why did the computer keep its food cold? Because it had a lot of bytes!", "Here's a pun for you: I'm reading a book on anti-gravity. It's impossible to put down!"],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like today?", "Tell me the weather forecast", "Is it going to rain today?", "What's the temperature outside?", "Is it going to be sunny tomorrow?", "Will it rain later?", "How's the weather today?", "What's the forecast for this week?", "Do I need an umbrella today?"],
+            "responses": ["I'm sorry, I can't provide real-time weather updates. You might want to check a weather website or app."],
+            "context": [""]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Can you tell me the current time?", "Do you have the time?", "Can you tell me the time?", "What's the time now?", "Do you know the time?", "Can you show me a clock?", "How can I check the time?", "Is my watch correct?"],
+            "responses": ["I'm sorry, I don't have the ability to tell the time. You can check the time on your device."],
+            "context": [""]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where are you located?", "What's your location?", "Are you in a specific place?", "Where are you from?", "Do you live in a computer?", "Can you travel?", "Are you in a room?", "How can I find you?", "Can you be in multiple places at once?"],
+            "responses": ["I exist in the digital realm and don't have a physical location."],
+            "context": [""]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "When were you created?", "What's your age?", "How long have you existed?", "When were you born?", "Can you celebrate a birthday?", "Do you age?", "What's your age in human years?", "Are you getting old?"],
+            "responses": ["I don't have an age in the traditional sense, as I'm a computer program. I was created in 2024."],
+            "context": [""]
+        },
+        {
+            "tag": "music",
+            "patterns": ["Play some music", "Can you recommend some music?", "I want to listen to music", "Play some background music", "Can you recommend a song?", "I want to listen to music, any suggestions?", "What's your favorite genre of music?", "Can you hum a tune?", "Do you like dancing to music?"],
+            "responses": ["I'm sorry, I can't play music. You might want to use a music streaming service for that."],
+            "context": [""]
+        },
+        {
+            "tag": "news",
+            "patterns": ["Tell me the latest news", "What's happening in the world?", "Give me some news updates", "What's the latest headline?", "Can you tell me a news story?", "Is there anything important happening today?", "What's the top news of the day?", "Do you have any breaking news?", "Can you summarize the news for me?"],
+            "responses": ["I'm sorry, I can't provide real-time news updates. You might want to check a news website or app."],
+            "context": [""]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What should I cook for dinner?", "Can you suggest a recipe?", "I'm hungry, what's a good snack?", "Do you have any favorite foods?", "Can you recommend a restaurant?", "What's your go-to comfort food?"],
+            "responses": ["How about trying a local cuisine or your favorite comfort food?"],
+            "context": [""]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["What's a good movie to watch?", "Can you suggest a movie for family night?", "Do you like watching movies?", "What's your favorite movie genre?", "Can you recommend a classic movie?", "Have you seen any good movies lately?"],
+            "responses": ["There are many great movies out there. What genre do you prefer?"],
+            "context": [""]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["What's the latest tech gadget?", "Can you explain blockchain technology?", "Do you think AI will take over the world?", "What's your opinion on virtual reality?", "Can you recommend a tech podcast?", "How has technology changed the world?"],
+            "responses": ["Technology is advancing rapidly. Is there a specific tech topic you're curious about?"],
+            "context": [""]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Who won the latest football match?", "Can you tell me the current cricket score?", "Do you play any sports?", "What's your favorite sports team?", "Can you recommend a sports documentary?", "Have you ever been to a sports event?"],
+            "responses": ["Sports news is always exciting. Which sport do you follow?"],
+            "context": [""]
+        },
+        {
+            "tag": "book_recommendation",
+            "patterns": ["What's a good book to read?", "Can you suggest a novel?", "Do you enjoy reading?", "What's your favorite book genre?", "Can you recommend a non-fiction book?", "Have you read any good books lately?"],
+            "responses": ["Books can take you on amazing adventures. What genre do you enjoy?"],
+            "context": [""]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["I need some motivation to start my day", "Can you inspire me to achieve my goals?", "How can I stay motivated?", "Do you have any motivational quotes?", "What's your advice for staying positive?", "Can you share a success story?"],
+            "responses": ["You're capable of great things. Keep going and never give up!"],
+            "context": [""]
+        },
+        {
+            "tag": "health",
+            "patterns": ["How can I improve my fitness?", "Can you suggest some healthy habits?", "I want to start eating healthier, any tips?", "What's your opinion on meditation for health?", "Can you recommend a workout routine?", "How important is sleep for health?"],
+            "responses": ["Maintaining a balanced diet and regular exercise can greatly improve your health."],
+            "context": [""]
+        },
+        {
+            "tag": "history",
+            "patterns": ["Tell me about a famous historical event", "Can you share an interesting history fact?", "Do you like studying history?", "What's your favorite historical era?", "Can you recommend a good history book?", "How has history shaped the world today?"],
+            "responses": ["History is full of fascinating stories. Is there a specific time period you're curious about?"],
+            "context": [""]
+        },
+        {
+            "tag": "coding",
+            "patterns": ["How can I learn programming?", "Can you recommend a programming language to start with?", "I want to become a programmer, where should I begin?", "Do you have any coding challenges?", "Can you explain the difference between Java and JavaScript?", "What's the best way to practice coding skills?"],
+            "responses": ["Learning to code is a great skill. There are many online resources available to help you get started."],
+            "context": [""]
+        },
+        {
+            "tag": "education",
+            "patterns": ["How can I improve my learning efficiency?", "Can you suggest some study tips?", "I want to expand my knowledge, any recommendations?", "What's your opinion on online education?", "Can you recommend a learning platform?", "How important is lifelong learning?"],
+            "responses": ["Continuous learning is key. Set clear goals and stay motivated."],
+            "context": [""]
+        },
+        {
+            "tag": "search_internet",
+            "patterns": ["Search the internet", "Look up on the internet", "Google it", "Search online"],
+            "responses": ["Sure, let me search the internet for you..."],
+            "context": [""]
+        },
+        {
+            "tag": "technology_trends",
+            "patterns": ["What are the current technology trends?", "Can you explain quantum computing?", "Is 5G technology safe?", "How is cybersecurity evolving?", "What's the future of self-driving cars?", "Can you explain the Internet of Things (IoT)?", "Are drones the future of delivery services?"],
+            "responses": ["Technology trends are constantly evolving. Let's explore the exciting developments together."],
+            "context": [""]
+        },
+        {
+            "tag": "space",
+            "patterns": ["Tell me about space exploration", "What's the latest discovery in astronomy?", "Can you explain black holes?", "Is there life on other planets?", "How big is the universe?", "What's the next big space mission?"],
+            "responses": ["Space is vast and mysterious. There's so much to learn about the universe."],
+            "context": [""]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["What are some travel tips?", "Can you recommend a travel destination?", "How can I plan a budget-friendly trip?", "What's the best time to visit popular tourist spots?", "Is solo travel safe?", "How do I book flights and accommodations online?"],
+            "responses": ["Traveling broadens the mind. Explore new places and cultures whenever you can."],
+            "context": [""]
+        },
+        {
+            "tag": "languages",
+            "patterns": ["How many languages do you know?", "Can you teach me a new language?", "What's the most spoken language in the world?", "Why is learning a foreign language important?", "Can you translate phrases into different languages?", "Do you know any tongue twisters?"],
+            "responses": ["I can communicate in many languages, but I specialize in human-friendly ones!"],
+            "context": [""]
+        },
+        {
+            "tag": "art",
+            "patterns": ["Tell me about famous artworks", "What's your opinion on modern art?", "Can you explain the significance of Renaissance art?", "Do you like visiting art galleries?", "How does art influence society?", "Can you recommend art techniques?"],
+            "responses": ["Art inspires creativity and expression. Dive into the world of art and discover its beauty."],
+            "context": [""]
+        },
+        {
+            "tag": "environment",
+            "patterns": ["Why is environmental conservation important?", "How can individuals help protect the environment?", "What are renewable energy sources?", "Can you explain climate change?", "Is recycling effective?", "What's the impact of deforestation?"],
+            "responses": ["Taking care of our planet ensures a sustainable future for all living beings."],
+            "context": [""]
+        },
+        {
+            "tag": "philosophy",
+            "patterns": ["What is the meaning of life?", "Can you explain philosophical concepts?", "Who are famous philosophers?", "Is there free will?", "What's the purpose of existence?", "Can you discuss ethics and morality?"],
+            "responses": ["Philosophy explores the fundamental questions of existence and understanding."],
+            "context": [""]
+        },
+        {
+            "tag": "emotions",
+            "patterns": ["How do emotions work?", "Can you explain happiness?", "What's the psychology behind fear?", "Is empathy important?", "How can one manage stress?", "Can you describe love and its impact?"],
+            "responses": ["Emotions shape our experiences and interactions. Understanding them is key to personal growth."],
+            "context": [""]
+        },
+        {
+            "tag": "SciKnowTech",
+            "patterns": ["What is SciKnowTech?", "Tell me about SciKnowTech", "Can you explain SciKnowTech's mission?", "How does SciKnowTech promote scientific learning?"],
+            "responses": ["SciKnowTech is a platform that revolutionizes scientific education through experiential learning for children aged 7-14. It offers engaging workshops and activities to make science exciting and accessible."],
+            "context": [""]
+        }
+    ]
+}
